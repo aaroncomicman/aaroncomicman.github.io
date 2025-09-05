@@ -42,26 +42,34 @@
             margin: 0;
             padding: 0;
         }
+        .logo {
+            max-width: 75px;
+        }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1 style="margin-top: 25px">Aaron Comic Man</h1>
+        <div class="d-flex justify-content-start align-items-center">
+            <a href="/"><img src="/assets/Logo.png" class="logo"/></a>
+            <h1 style="display: inline-block">Aaron Comic Man</h1>
+        </div>
         </div>
     </div>
+    <hr/>
     <div class="row">
-        <div class="col col-4">
-            <p class="text-center"><a href="/projects.html">Projects</a></p>
+        <div class="col col-4 d-flex align-items-center justify-content-center">
+            <a href="/projects.html">Projects</a>
         </div>
-        <div class="col col-4">
-            <p class="text-center"><a href="/">Bug Man</a></p>
+        <div class="col col-4 d-flex align-items-center justify-content-center">
+            <a href="/">Bug Man</a>
         </div>
-        <div class="col col-4">
-            <p class="text-center"><a href="/contact.html">Contact</a></p>
+        <div class="col col-4 d-flex align-items-center justify-content-center">
+            <a href="/contact.html">Contact</a>
         </div>
     </div>
+    <hr/>
 
     
     <div class="row">
